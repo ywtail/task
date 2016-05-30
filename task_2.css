@@ -1,0 +1,128 @@
+#navbar {
+	background-color: #333333;
+	text-align: right;
+	height: 70px;
+	background-image: url(img/task_2.png);
+	background-repeat: no-repeat;
+	background-position: 1% 50%;
+}
+
+#navbar ul {
+	padding: 20px 10px; 
+}
+
+#navbar ul li {
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+body {
+	font-family: 黑体, "STHeiti", "Microsoft YaHei", sans-serif; 
+	font-size: medium;
+	background-color: #DEDEDE;
+	line-height: 1.8em;
+}
+
+article {
+	border: 2px outset;
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin: 20px 15px;
+}
+
+.sectitle {
+	font-size: 1.2em;
+	color: #646464;
+}
+
+.time {
+	font-size: 0.8em;
+	color: #646464;
+}
+
+.title {
+	line-height: 1;
+}
+
+#nodecoration {
+	list-style-type: none;
+	padding: 0px 20px;
+}
+
+div.img {
+	border: 1px solid #bebebe;
+	width: 150px;
+	height: 155px;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 20px;
+}
+
+div.img img {
+	width: 120px;
+	height: 120px;
+	padding: 5px 0px 20px 0px;
+}
+
+.login {
+	border: 2px outset;
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin: 30px 30px 20px 15px;
+}
+
+#footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 15px 0px 30px 0px;
+}
+
+table {
+	border: 1px solid #CCCCCC;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+form {
+	display: table;
+	padding-left: 300px;
+}
+
+.total {
+	background-color: #CCCCCC;
+	font-weight: bold;
+}
+
+.tablerow {
+	display: table-row;
+}
+
+.tablerow p {
+	display: table-cell;
+	padding: 3px;
+	vertical-align: top;
+}
+
+.tablerow p:first-child {
+	text-align: right;
+}
+
+.remin {
+	color: #A2A2A2;
+}
+
+form textarea {
+	width: 900px;
+	height: 100px;
+}
