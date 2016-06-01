@@ -1,3 +1,10 @@
+body {
+	font-family: 黑体, "STHeiti", "Microsoft YaHei", sans-serif; 
+	font-size: medium;
+	background-color: #DEDEDE;
+	line-height: 1.8em;
+}
+
 #navbar {
 	background-color: #333333;
 	text-align: right;
@@ -5,6 +12,7 @@
 	background-image: url(img/task_2.png);
 	background-repeat: no-repeat;
 	background-position: 1% 50%;
+	font-size: 0.8em;
 }
 
 #navbar ul {
@@ -18,13 +26,6 @@
 #navbar ul li a {
 	text-decoration: none;
 	color: #FFFFFF;
-}
-
-body {
-	font-family: 黑体, "STHeiti", "Microsoft YaHei", sans-serif; 
-	font-size: medium;
-	background-color: #DEDEDE;
-	line-height: 1.8em;
 }
 
 article {
@@ -94,18 +95,19 @@ th {
 	color: #FFFFFF;
 }
 
-form {
-	display: table;
-	padding-left: 300px;
-}
-
 .total {
 	background-color: #CCCCCC;
 	font-weight: bold;
 }
 
+form {
+	display: table;
+	padding-left: 300px;
+}
+
 .tablerow {
 	display: table-row;
+	padding: 5px;
 }
 
 .tablerow p {
@@ -122,7 +124,22 @@ form {
 	color: #A2A2A2;
 }
 
+form input[type="text"], form input[type="password"] {
+	width: 180px;
+	height: 25px;
+}
+
 form textarea {
-	width: 900px;
+	width: 800px;
 	height: 100px;
+}
+
+button {
+	background-color: #3355D0;
+	width: 100%;
+	height: 50px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 1em;
+	font-weight: bold;
 }

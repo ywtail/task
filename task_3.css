@@ -1,0 +1,57 @@
+body {
+	font-family: "Microsoft YaHei";
+}
+
+#container {
+	border: 1px solid #999;
+	padding: 20px;
+	margin: 20px;
+	background-color: #eee;
+	overflow: auto;
+	min-width: 600px;
+}
+
+#left {
+	border: 1px solid #999;
+	width: 200px;
+	background-color: #fff;
+	float: left;
+}
+
+#left img {
+	margin: 20px;
+	float: left;
+}
+
+.teamname {
+	font-family: DFKai-SB, YouYuan;
+	font-size: 1.2em;
+	text-align: right;
+	padding: 20px;
+}
+
+#left span {
+	position: absolute;
+	top:60px;
+}
+
+#main {
+	border: 1px solid #999;
+	padding: 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+	background-color: #fff;
+}
+
+#right {
+	border: 1px solid #999;
+	width: 120px;
+	background-color: #fff;
+	float: right;
+}
+
+#right img {
+	border: 1px solid #999;
+	border-radius: 5px;
+	margin: 0px 20px;
+}
