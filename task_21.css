@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+body {
+	margin: 30px;
+}
+
+div {
+	height: 70px;
+}
+
+#tag {
+	width: 15em;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 10px;
+	height: 150px;
+	width: 20em;
+}
+
+span {
+	background-color: #FA8072;
+	margin-right: 5px;
+	line-height: 3em;
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
