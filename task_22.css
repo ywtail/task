@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+}
+
+div {
+    border: 1px solid;
+    margin: 15px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div4 {
+    width: 20px;
+    height: 12px;
+}
+
+.btns {
+    border: none;
+    margin: 30px auto;
+    width: 300px;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #FA8072;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+button:hover {
+    background-color: #f44336;
+}
